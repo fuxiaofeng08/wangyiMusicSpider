@@ -62,5 +62,9 @@ downLoad("asss",url)
 
 ## 程序运行顺序
  首先运行抓包工具，在抓包策略文件夹下运行mitmdump -s addons.py -p 9999(9999为指定的监听端口，与selenium配置的proxy参数对应)
+ ![](https://github.com/fuxiaofeng08/wangyiMusicSpider/blob/master/pic/20191227144537.png)  
+ 然后运行selenium_op.py,进行模拟点击操作(使用无头浏览器无法获取定位元素，至今没有找到原因),运行结果
+ ![](https://github.com/fuxiaofeng08/wangyiMusicSpider/blob/master/pic/20191227144728.png)  
+ 最后运行musicSpider.py.
  
 
